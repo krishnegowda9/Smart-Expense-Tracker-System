@@ -38,35 +38,30 @@ The main goal of this project is to:
 4. Build interactive dashboards using Streamlit
 5. Practice real-world project structuring
 
-### ⚙️ How to Run This Project
+## ⚙️ How to Run This Project
 
 **1️⃣ Clone the repository**
 ```bash
-git clone [https://github.com/krishnegowda9/Smart-Expense-Tracker-System.git](https://github.com/krishnegowda9/Smart-Expense-Tracker-System.git)
+git clone https://github.com/krishnegowda9/Smart-Expense-Tracker-System.git
 cd Smart-Expense-Tracker-System
 
+
 2️⃣ Create virtual environment
-Bash
-python -m venv venv
+   Bashpython -m venv venv
 
 3️⃣ Activate virtual environment
-Bash
 # Windows
 venv\Scripts\activate
 # Mac/Linux
 source venv/bin/activate
 
 4️⃣ Install dependencies
-Bash
 pip install -r requirements.txt
 
 5️⃣ Run Backend (FastAPI)
-Bash
 cd backend
 python -m uvicorn server:app --reload
 
 6️⃣ Run Frontend (Streamlit)
-Bash
 cd frontend
 python -m streamlit run app.py
-
