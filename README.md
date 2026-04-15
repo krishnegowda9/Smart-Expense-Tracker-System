@@ -1,67 +1,33 @@
-# Smart-Expense-Tracker-System
+# Expense Management System
 
-A Full Stack Python-based Expense Tracker Application built using Streamlit, FastAPI, and MySQL. This project helps users track daily expenses, analyze spending patterns, and visualize financial data through an interactive dashboard.
-
-### 🚀 Key Features
-* ➕ **Add daily expenses** with category, amount, and notes
-* 📊 **View expense breakdown** by category
-* 📅 **Filter expenses** using date range
-* 📈 **Interactive charts** for financial insights
-* 🗑️ **Delete expense records**
-* ⚡ **Fast and lightweight** REST API using FastAPI
-* 💾 **Persistent data storage** using MySQL
-* 🎨 **Interactive UI** built with Streamlit
-
-### 🛠️ Tech Stack
-* **Frontend (UI):** Streamlit (Python-based UI framework)
-* **Backend (API):** FastAPI
-* **Database:** MySQL
-* **Language:** Python
-
-### 🧩 System Architecture
-Streamlit UI (Frontend)  
-↓  
-FastAPI Backend (REST API)  
-↓  
-MySQL Database
-
-### 📂 Project Structure
-* 📂 **backend/**: FastAPI server and database logic.
-* 📂 **frontend/**: Streamlit dashboard and UI components.
-* 📂 **database/**: SQL scripts and schema definitions.
-
-### 🎯 Project Objective
-The main goal of this project is to:
-1. Understand full-stack application development using Python
-2. Learn API creation using FastAPI
-3. Work with relational databases (MySQL)
-4. Build interactive dashboards using Streamlit
-5. Practice real-world project structuring
-
-## ⚙️ How to Run This Project
-
-**1️⃣ Clone the repository**
-```bash
-git clone https://github.com/krishnegowda9/Smart-Expense-Tracker-System.git
-cd Smart-Expense-Tracker-System
+This project is an expense management system that consists of a Streamlit frontend application and a FastAPI backend server.
 
 
-2️⃣ Create virtual environment
-   Bashpython -m venv venv
+## Project Structure
 
-3️⃣ Activate virtual environment
-# Windows
-venv\Scripts\activate
-# Mac/Linux
-source venv/bin/activate
+- **frontend/**: Contains the Streamlit application code.
+- **backend/**: Contains the FastAPI backend server code.
+- **tests/**: Contains the test cases for both frontend and backend.
+- **requirements.txt**: Lists the required Python packages.
+- **README.md**: Provides an overview and instructions for the project.
 
-4️⃣ Install dependencies
-pip install -r requirements.txt
 
-5️⃣ Run Backend (FastAPI)
-cd backend
-python -m uvicorn server:app --reload
+## Setup Instructions
 
-6️⃣ Run Frontend (Streamlit)
-cd frontend
-python -m streamlit run app.py
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourusername/expense-management-system.git
+   cd expense-management-system
+   ```
+1. **Install dependencies:**:   
+   ```commandline
+    pip install -r requirements.txt
+   ```
+1. **Run the FastAPI server:**:   
+   ```commandline
+    uvicorn server.server:app --reload
+   ```
+1. **Run the Streamlit app:**:   
+   ```commandline
+    streamlit run frontend/app.py
+   ```
