@@ -1,15 +1,15 @@
 # Smart-Expense-Tracker-System
 A Full Stack Python-based Expense Tracker Application built using Streamlit, FastAPI, and MySQL. This project helps users track daily expenses, analyze spending patterns, and visualize financial data through an interactive dashboard.
 
-🚀 Key Features : 
-   ➕ Add daily expenses with category, amount, and notes
-   📊 View expense breakdown by category
-   📅 Filter expenses using date range
-   📈 Interactive charts for financial insights
-   🗑️ Delete expense records
-   ⚡ Fast and lightweight REST API using FastAPI
-   💾 Persistent data storage using MySQL
-   🎨 Interactive UI built with Streamlit
+*🚀 Key Features : 
+   *➕ Add daily expenses with category, amount, and notes
+   *📊 View expense breakdown by category
+   *📅 Filter expenses using date range
+   *📈 Interactive charts for financial insights
+   *🗑️ Delete expense records
+   *⚡ Fast and lightweight REST API using FastAPI
+*💾 Persistent data storage using MySQL
+   *🎨 Interactive UI built with Streamlit
 
 🛠️ Tech Stack 
    Frontend (UI): Streamlit (Python-based UI framework)
