@@ -20,9 +20,9 @@ A Full Stack Python-based Expense Tracker Application built using Streamlit, Fas
 
 ### 🧩 System Architecture
 Streamlit UI (Frontend)  
-       ↓  
+↓  
 FastAPI Backend (REST API)  
-       ↓  
+↓  
 MySQL Database
 
 ### 📂 Project Structure
