@@ -46,27 +46,26 @@ git clone [https://github.com/krishnegowda9/Smart-Expense-Tracker-System.git](ht
 cd Smart-Expense-Tracker-System
 
 2️⃣ Create virtual environment
-
 Bash
 python -m venv venv
-3️⃣ Activate virtual environment
 
+3️⃣ Activate virtual environment
 Bash
 # Windows
 venv\Scripts\activate
 # Mac/Linux
 source venv/bin/activate
-4️⃣ Install dependencies
 
+4️⃣ Install dependencies
 Bash
 pip install -r requirements.txt
-5️⃣ Run Backend (FastAPI)
 
+5️⃣ Run Backend (FastAPI)
 Bash
 cd backend
 python -m uvicorn server:app --reload
-6️⃣ Run Frontend (Streamlit)
 
+6️⃣ Run Frontend (Streamlit)
 Bash
 cd frontend
 python -m streamlit run app.py
