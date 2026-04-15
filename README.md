@@ -26,9 +26,9 @@ FastAPI Backend (REST API)
 MySQL Database
 
 ### 📂 Project Structure
-* `backend/` → FastAPI backend (routes, database logic)
-* `frontend/` → Streamlit user interface
-* `database/` → SQL schema and data dump
+* 📂 **backend/**: FastAPI server and database logic.
+* 📂 **frontend/**: Streamlit dashboard and UI components.
+* 📂 **database/**: SQL scripts and schema definitions.
 
 ### 🎯 Project Objective
 The main goal of this project is to:
