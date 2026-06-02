@@ -12,6 +12,7 @@ This project is an expense management system that consists of a Streamlit fronte
 - **README.md**: Provides an overview and instructions for the project.
 
 
+
 ## Setup Instructions
 
 1. **Clone the repository**:
