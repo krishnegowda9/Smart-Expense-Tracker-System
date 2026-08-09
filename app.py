@@ -13,4 +13,3 @@ with tab1:
 with tab2:
     analytics_tab()
 
-
