@@ -13,6 +13,33 @@ This repository provides a complete end-to-end solution for managing daily expen
 
 ---
 
+graph TD
+    classDef ui fill:#1f2937,stroke:#3b82f6,stroke-width:2px,color:#fff;
+    classDef api fill:#111827,stroke:#10b981,stroke-width:2px,color:#fff;
+    classDef db fill:#0f172a,stroke:#8b5cf6,stroke-width:2px,color:#fff;
+    classDef log fill:#334155,stroke:#f59e0b,stroke-width:2px,color:#fff;
+
+    subgraph Frontend ["🎨 Frontend Tier (Streamlit UI - app.py)"]
+        A["Add / Update UI<br/><i>(add_update_ui.py)</i>"]:::ui
+        B["Analytics & Insights UI<br/><i>(analytics_ui.py)</i>"]:::ui
+    end
+
+    subgraph Backend ["⚡ Backend API Tier (FastAPI - server.py)"]
+        C["API Routes & Request Handlers<br/><i>(GET/POST/PUT/DELETE)</i>"]:::api
+        D["Logging Engine<br/><i>(logging_setup.py)</i>"]:::log
+    end
+
+    subgraph Storage ["💾 Persistence Tier"]
+        E["Database Helper Utilities<br/><i>(db_helper.py)</i>"]:::db
+        F["Database Storage<br/><i>(MySQL / SQLite Schemas)</i>"]:::db
+    end
+
+    A -->|"HTTP POST / PUT (Expense Records)"| C
+    B -->|"HTTP GET (Fetch Aggregated Analytics)"| C
+    C -->|"Log Requests & Operational Events"| D
+    C -->|"Executes Query Operations"| E
+    E -->|"Reads / Writes Data"| F
+    
 ## 📁 Repository Structure
 
 ```text
