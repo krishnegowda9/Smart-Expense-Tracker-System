@@ -12,7 +12,7 @@ This repository provides a complete end-to-end solution for managing daily expen
 * **Backend**: Powered by FastAPI for high-performance API endpoints and data persistence.
 
 ---
-
+```mermaid
 graph TD
     classDef ui fill:#1f2937,stroke:#3b82f6,stroke-width:2px,color:#fff;
     classDef api fill:#111827,stroke:#10b981,stroke-width:2px,color:#fff;
@@ -39,6 +39,7 @@ graph TD
     C -->|"Log Requests & Operational Events"| D
     C -->|"Executes Query Operations"| E
     E -->|"Reads / Writes Data"| F
+```
     
 ## 📁 Repository Structure
 
