@@ -80,3 +80,4 @@ Backend: FastAPI, Uvicorn
 Frontend: Streamlit
 
 Database: MySQL / SQLite (configured via db_helper.py)
+
